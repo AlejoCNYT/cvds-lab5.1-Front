@@ -18,7 +18,7 @@ Antes de comenzar, aseg√∫rate de tener **Node.js** y **npm** instalados en tu m√
    ```bash
    cd react-hello-world
    ```
-
+   ![](https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-02-29%20212156.png)
 ### 3. Consumiendo el Servicio Spring Boot
 1. **Crea un componente React**:
    - En la carpeta `src`, crea un nuevo archivo llamado `HelloWorld.js`.
