@@ -27,7 +27,7 @@ Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu m�
 2. **Realiza una solicitud HTTP al servicio Spring Boot**:
    - En el mismo archivo `HelloWorld.js`, utiliza la función `fetch` o una librería como **axios** para hacer una solicitud GET al servicio Spring Boot.
    - La URL de la solicitud debe ser la misma que definimos en nuestro controlador Spring Boot (por ejemplo, `http://localhost:8080/clients`).
-
+   
 3. **Renderiza la respuesta en tu componente**:
    - Cuando recibas la respuesta del servicio, muestra el mensaje "Hello World" en tu componente React.
 
@@ -37,7 +37,9 @@ Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu m�
      ```bash
      npm start
      ```
+     ![](https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-02-29%20220649.png)
    - Esto abrirá automáticamente tu aplicación React en el navegador en [http://localhost:3000](http://localhost:3000).
+   - ![]()
 
 2. **Verifica que el mensaje "Hello World" se muestre correctamente**:
    - Si todo funciona correctamente, deberías ver el mensaje "Hello World" en tu aplicación React.
