@@ -4,7 +4,7 @@
 
 ### 1. Configuración Inicial
 Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu máquina. Si aún no los tienes, descárgalos e instálalos desde [Node.js official website](https://nodejs.org/).
-
+![](https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-02-29%20204959.png)
 ### 2. Creación del Proyecto React
 1. **Genera un nuevo proyecto React**:
    - Abre la terminal y ejecuta el siguiente comando para crear un nuevo proyecto React usando **Create React App**:
