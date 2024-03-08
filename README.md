@@ -122,6 +122,7 @@ Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu m�
      ```bash
      npm run build
      ```
+     ![](https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-07%20223258.png)
    - Esto creará una carpeta `build` con los archivos optimizados para producción.
 
 2. **Integra tu aplicación React con Spring Boot**:
