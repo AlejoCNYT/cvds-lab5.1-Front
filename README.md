@@ -115,7 +115,8 @@ Antes de comenzar, asegúrate de tener **Node.js** y **npm** instalados en tu m�
 
 2. **Verifica que el mensaje "Hello World" se muestre correctamente**:
    - Si todo funciona correctamente, deberías ver el mensaje "Hello World" en tu aplicación React.
-   ![](https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-07%20222738.png)
+   - ![](https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-09%20184236.png)
+   
 ### 5. Empaquetado y Despliegue
 1. **Empaqueta tu aplicación React**:
    - Cuando estés listo para desplegar tu aplicación, ejecuta:
