@@ -1,6 +1,8 @@
 # Laboratorio 5.1
-## Daniel Alejandro Acero
-## Julian Triana
+ Daniel Alejandro Acero
+ Julian Triana
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Getting Started with Create React App
 
@@ -192,4 +194,3 @@ Como desarrollador fullstack con experiencia en React y Spring Boot, puedo ayuda
 
       ![](https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20071303.png)
 ¡Listo! Siguiendo estos pasos, habrás configurado correctamente CORS en tu servicio "Hello, World" de Spring Boot. Si tienes alguna pregunta adicional o necesitas más detalles, no dudes en preguntar. 😊
->>>>>>> 1ed073d5c3c81c1e87edc1b960621c19880b9345
