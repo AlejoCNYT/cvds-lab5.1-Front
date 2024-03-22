@@ -140,7 +140,11 @@ Como desarrollador fullstack con experiencia en React y Spring Boot, puedo ayuda
    - Si aún no tienes un proyecto Spring Boot, puedes crear uno utilizando [Spring Initializr](https://start.spring.io/). Asegúrate de incluir la dependencia de **Spring Web**.
    - Alternativamente, puedes descargar el proyecto preconfigurado desde [este repositorio](https://github.com/spring-guides/gs-rest-service-cors).
 
-2. **Agregar la Anotación `@CrossOrigin`**:
+   !()[https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20054347.png]
+   !()[https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20054356.png]
+   !()[https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20054500.png]
+
+3. **Agregar la Anotación `@CrossOrigin`**:
    - En tu controlador Spring (donde defines tus endpoints), agrega la anotación `@CrossOrigin` a los métodos que deseas habilitar para CORS.
    - Por ejemplo, si tienes un endpoint `/api/hello`, puedes hacer lo siguiente:
 
@@ -160,20 +164,27 @@ Como desarrollador fullstack con experiencia en React y Spring Boot, puedo ayuda
     }
     ```
 
+   !()[https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20071656.png]
+
    - La anotación `@CrossOrigin` le indica al navegador que este endpoint es accesible desde cualquier origen.
 
-3. **Configurar Opciones Adicionales (Opcional)**:
+5. **Configurar Opciones Adicionales (Opcional)**:
    - Puedes personalizar la configuración de CORS agregando más opciones a la anotación `@CrossOrigin`. Por ejemplo:
 
     ```java
     @CrossOrigin(origins = "http://mi-frontend.com", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST})
     ```
 
+   !()[https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20071313.png]
+
    - En este ejemplo, solo se permiten solicitudes desde `http://mi-frontend.com`, se aceptan todos los encabezados y se habilitan los métodos GET y POST.
 
-4. **Prueba tu Servicio**:
+6. **Prueba tu Servicio**:
    - Inicia tu aplicación Spring Boot y accede al endpoint `/api/hello` desde tu aplicación frontend (por ejemplo, una aplicación React).
+     
    - Deberías poder recibir una respuesta exitosa sin errores de CORS.
-
+  
+   !()[https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20071724.png]
+   !()[https://github.com/AlejoCNYT/cvds-lab5.1-Front/blob/main/img/Captura%20de%20pantalla%202024-03-22%20071303.png]
 ¡Listo! Siguiendo estos pasos, habrás configurado correctamente CORS en tu servicio "Hello, World" de Spring Boot. Si tienes alguna pregunta adicional o necesitas más detalles, no dudes en preguntar. 😊
 >>>>>>> 1ed073d5c3c81c1e87edc1b960621c19880b9345
