@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+# Laboratorio 5.1
+## Daniel Alejandro Acero
+## Julian Triana
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
